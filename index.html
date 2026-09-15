@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sushi Sakura — delivery-only sushi, made fresh." />
+    <title>Sushi Sakura | Delivery Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav><div class="brand-actions"><a class="brand" href="#top">Sushi <em>Sakura</em></a><div class="language-switcher" aria-label="Choose language"><button type="button" class="language-button active" data-language="en">EN</button><button type="button" class="language-button" data-language="ku">کوردی</button><button type="button" class="language-button" data-language="ar">العربية</button></div></div><a class="order-link" href="#order"><span data-i18n="orderNow">Order now</span> <span>→</span></a></nav>
+      <div class="hero-content" id="top">
+        <div class="hero-logo-column"><div class="logo-frame"><img class="logo" src="assets/sushi-sakura-logo.png" alt="Sushi Sakura logo" /></div><div class="social-links" aria-label="Follow Sushi Sakura"><span data-i18n="pressMe">Press me</span><div class="social-icons"><a class="social-tiktok" href="https://www.tiktok.com/@sushi_sakura0?_r=1&amp;_t=ZS-99gKq9OyvB7" target="_blank" rel="noreferrer" aria-label="Follow Sushi Sakura on TikTok"><img src="assets/tiktok-icon.jpg" alt="" /></a><a class="social-instagram" href="https://www.instagram.com/sushi_sakura.1?stkn=MXd6MTVqOGQ2ZnRlMQ==" target="_blank" rel="noreferrer" aria-label="Follow Sushi Sakura on Instagram"><img src="assets/instagram-icon.jpg" alt="" /></a></div></div></div>
+        <div class="hero-copy"><p class="eyebrow" data-i18n="heroEyebrow">Delivery only · made with care</p><h1 data-i18n-html="heroTitle">A little Tokyo,<br /><em>delivered to you.</em></h1><p data-i18n="heroDescription">Fresh sushi, warm bowls, and beautiful bites for your table.</p><a class="button" href="#menu" data-i18n="exploreMenu">Explore the menu</a><div class="feedback" id="feedback" aria-labelledby="feedback-title">
+          <p class="eyebrow" data-i18n="feedbackEyebrow">Your experience</p>
+          <h2 id="feedback-title" data-i18n-html="feedbackTitle">How was your<br /><em>Sushi Sakura?</em></h2>
+          <p data-i18n="feedbackDescription">Tap a star to send your rating directly to us on WhatsApp.</p>
+          <div class="rating-stars" role="group" data-i18n-aria-label="feedbackRatingLabel" aria-label="Choose a rating">
+            <button type="button" class="rating-star" data-rating="1" aria-label="1 star out of 5">★</button>
+            <button type="button" class="rating-star" data-rating="2" aria-label="2 stars out of 5">★</button>
+            <button type="button" class="rating-star" data-rating="3" aria-label="3 stars out of 5">★</button>
+            <button type="button" class="rating-star" data-rating="4" aria-label="4 stars out of 5">★</button>
+            <button type="button" class="rating-star" data-rating="5" aria-label="5 stars out of 5">★</button>
+          </div>
+          <form class="feedback-form" id="feedback-form">
+            <label for="feedback-message" data-i18n="feedbackCommentLabel">Tell us more</label>
+            <textarea id="feedback-message" rows="3" maxlength="500" required data-i18n-placeholder="feedbackCommentPlaceholder" placeholder="Write your feedback here…"></textarea>
+            <button type="submit" class="feedback-send" data-i18n="feedbackSend">Send feedback on WhatsApp</button>
+          </form>
+          <p class="feedback-note" data-i18n="feedbackNote">Your WhatsApp chat will open with your rating ready to send.</p>
+        </div></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro"><p class="eyebrow" data-i18n="introEyebrow">Welcome to Sushi Sakura</p><h2 data-i18n-html="introTitle">Simple ingredients.<br /><em>Extraordinary flavor.</em></h2><p data-i18n="introDescription">Every order is prepared fresh for delivery. This is a sample menu—update the dishes, prices, and ordering link with your own details.</p></section>
+
+      <section class="sushi-stories" aria-labelledby="stories-title">
+        <div class="stories-heading"><div><p class="eyebrow" data-i18n="storiesEyebrow">A taste in motion</p><h2 id="stories-title" data-i18n-html="storiesTitle">Made fresh.<br /><em>Made for you.</em></h2></div><p data-i18n="storiesDescription">A closer look at the color, texture, and care in every Sushi Sakura order.</p></div>
+        <div class="story-grid">
+          <figure class="story-card story-card-large"><video autoplay muted loop playsinline preload="metadata" aria-label="Sushi Sakura food preparation video"><source src="assets/sushi-story-01.mp4" type="video/mp4" /></video><figcaption><span data-i18n="storyOne">Freshly prepared</span></figcaption></figure>
+          <figure class="story-card"><video autoplay muted loop playsinline preload="metadata" aria-label="Sushi Sakura food preparation video"><source src="assets/sushi-story-02.mp4" type="video/mp4" /></video><figcaption><span data-i18n="storyTwo">Beautiful details</span></figcaption></figure>
+          <figure class="story-card"><video autoplay muted loop playsinline preload="metadata" aria-label="Sushi Sakura food preparation video"><source src="assets/sushi-story-03.mp4" type="video/mp4" /></video><figcaption><span data-i18n="storyThree">Ready to enjoy</span></figcaption></figure>
+          <figure class="story-card story-card-wide"><video autoplay muted loop playsinline preload="metadata" aria-label="Sushi Sakura food preparation video"><source src="assets/sushi-story-04.mp4" type="video/mp4" /></video><figcaption><span data-i18n="storyFour">Delivered with care</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-heading"><p class="eyebrow" data-i18n="menuEyebrow">Our menu</p><h2 data-i18n-html="menuTitle">Find your <em>favorite.</em></h2></div>
+        <div class="menu-search" role="search">
+          <label class="sr-only" for="menu-search-input" data-i18n="searchLabel">Search the menu</label>
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="menu-search-input" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search dishes, ingredients, or categories" />
+          <button class="search-clear" type="button" aria-label="Clear search" data-i18n-aria-label="clearSearch" hidden>×</button>
+        </div>
+        <p class="search-status" id="search-status" aria-live="polite"></p>
+        <div class="tabs" role="tablist"><button class="active" data-category="rolls" data-i18n="tabRolls">Signature Rolls</button><button data-category="specials" data-i18n="tabSpecials">Specials & Hot</button><button data-category="bowls" data-i18n="tabBowls">Bowls & Rice</button><button data-category="nigiri" data-i18n="tabNigiri">Nigiri</button><button data-category="maki" data-i18n="tabMaki">Maki Rolls</button><button data-category="sauces" data-i18n="tabSauces">Sauces</button><button data-category="drinks" data-i18n="tabDrinks">Drinks</button></div>
+        <div class="menu-grid" id="menu-grid"></div>
+      </section>
+
+      <section class="delivery" id="order"><div><p class="eyebrow" data-i18n="deliveryEyebrow">Sushi at your door</p><h2 data-i18n-html="deliveryTitle">Ready when<br /><em>you are.</em></h2><p data-i18n="deliveryDescription">Delivery only. Place your order through your preferred delivery app or contact us directly.</p><div class="customer-support"><span data-i18n="customerSupport">Customer support</span><p data-i18n="supportDescription">Contact the owner directly and we'll be happy to help.</p><a href="tel:+9647509113224" data-i18n="supportNumber" dir="ltr">0750 911 3224</a><a class="whatsapp-button" href="https://wa.me/9647509113224" target="_blank" rel="noreferrer" data-i18n="whatsapp">WhatsApp</a></div></div><div class="order-platforms"><p data-i18n="orderOn">Order on</p><div class="order-logos"><img src="assets/lezzo-logo.jpg" alt="Lezzo" /><img src="assets/toters-logo.png" alt="Toters" /><img src="assets/talabat-logo.jpg" alt="Talabat" /></div></div></section>
+    </main>
+
+    <footer><p>Sushi <em>Sakura</em></p><span data-i18n="footerDelivery">© 2026 · Delivery only</span><div class="designer-credit"><span data-i18n="designer">Designed by (G-Designers)</span><span>Socials: 0751 813 2238</span></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

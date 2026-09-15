@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#1f688b"/><stop offset="1" stop-color="#82d9ef"/></linearGradient><linearGradient id="bottle" x1="0" x2="1"><stop stop-color="#c8f5ff" stop-opacity=".55"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#c8f5ff" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#bg)"/><path d="M0 580q160-80 320 0t320 0v220H0z" fill="#fff" opacity=".18"/>
+  <path d="M806 146h128v80l37 61v300c0 50-39 73-101 73s-101-23-101-73V287l37-61z" fill="url(#bottle)" stroke="#fff" stroke-width="7"/><rect x="800" y="146" width="140" height="35" rx="8" fill="#effeff"/><rect x="784" y="350" width="172" height="160" rx="20" fill="#147fac" opacity=".8"/><path d="M806 424q64-71 128 0-64 80-128 0z" fill="#fff" opacity=".9"/>
+  <g fill="#fff" opacity=".55"><circle cx="680" cy="644" r="12"/><circle cx="711" cy="690" r="7"/><circle cx="630" cy="706" r="6"/></g>
+</svg>
